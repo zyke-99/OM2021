@@ -23,7 +23,7 @@ fprintf('Skaiciavimu skaicius: %d\n', f_count);
 
 
 function a = f(x)
-    a = ((x.^2+0).^2)/4-1;
+    a = ((x.^2-0).^2)/4-1;
 end
 
 function b = ff(x)
